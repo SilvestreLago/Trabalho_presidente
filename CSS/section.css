@@ -1,0 +1,52 @@
+@charset "UTF-8";
+:root{
+    --cor0: #00e66b;
+    --cor1: #EFFF00;
+    --cor2: #005AFF;
+    --cor3: #F58E00;
+    --cor4: #CA00F5;
+}
+/*
+APENAS PARA CONFIGURAÇÃO NO SECTION
+*/
+section{
+    padding-top: 40px;
+}
+section>h2{
+    padding-bottom: 5px;
+}
+article{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    box-shadow: black 1px 1px 4px;
+    border-radius: 5px;
+    border: solid black 1px;
+    min-width: 320px;
+    max-width: 800px;
+    
+}
+div{
+    margin: 10px;
+}
+h2{
+    background-color: white;
+    margin: none;
+    padding: 10px;
+}
+p{
+    text-align: justify;
+    margin-right: 10px;
+}
+main{
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+li{
+    padding-top: 5px;
+}
+article.reforma{
+    margin-top: 20px;
+    text-align: justify;
+}

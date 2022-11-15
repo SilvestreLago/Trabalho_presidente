@@ -1,0 +1,50 @@
+@charset "UTF-8";
+:root{
+    --cor0: #00e66b;
+    --cor1: #eeff00;
+    --cor2: #005AFF;
+    --cor3: #F58E00;
+    --cor4: #CA00F5;
+}
+/*
+APENAS PARA CONFIGURAÇÔES NO HEADER.
+*/
+header{
+    border: solid black 1px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    padding: 10px;
+    text-align: center;
+    background-image:linear-gradient(to bottom, green 70%, rgba(0, 0, 0, 0.678));
+    color: white;
+    box-shadow: black 1px 1px 3px;
+    text-shadow: black 1px 2px 3px;
+}
+header>h1{
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+a:visited{
+    color: white;    
+}
+a:hover{
+    background-color: rgba(234, 255, 118, 0.788);
+    border-radius: 3px;
+    box-shadow: black 1px 2px 3px;
+}
+a:active{
+    color: rgb(47, 0, 255);
+}
+header>nav>div{
+    text-align: left;
+}
+h1>img{
+    max-width: 50px;
+    max-height: 50px;
+    padding-right: 10px;
+}
